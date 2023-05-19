@@ -1,0 +1,52 @@
+{% load static%}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static 'css/homepage.css' %}">
+    <link rel="stylesheet" href="{% static 'css/Herobanner.css' %}">
+    <title>Navbar</title>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="navbar-container container">
+            <input type="checkbox" name="" id="">
+            <div class="hamburger-lines">
+                <span class="line line1"></span>
+                <span class="line line2"></span>
+                <span class="line line3"></span>
+            </div>
+            <ul class="menu-items">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About Project</a></li>
+                <li><a href="#">User Guide</a></li>
+                <li><a href="#">Contact Us</a></li>
+                
+            </ul>
+            <h1 class="logo">
+                <!-- <img
+                id="#home"
+                style="width:30%; height:100%;
+                border-radius:60px;
+                margin-left:8rem ;"
+                 src="{% static '/image/Logo.png'%}"> -->
+                 pema
+            </h1>
+        </div>
+    </nav>
+
+    <div class="row">
+        <div class="left-column">
+          <h2 class="left-heading">Responsive Two Column Layout</h2>
+          <p class="left-paragraph">Anim aute id magna aliqua ad ad non       deserunt sunt. Qui irure qui lorem cupidatat commodo. Elit sunt    amet fugiat veniam occaecat fugiat aliqua.</p>
+          <button class="btn success">Get Started</button>
+          <button class="btn info">Live Demo</button>
+        </div>
+      <div class="right-column">
+       
+      </div>
+    </div>
+</body>
+</html>
